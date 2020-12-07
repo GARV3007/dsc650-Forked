@@ -1,13 +1,12 @@
 ---
 title: Assignment 1
 subtitle: Computer performance, reliability, and scalability calculation
-author: Jane Doe
+author: Gourav Verma
 ---
 
 ## 1.2 
 
 #### a. Data Sizes
-
 | Data Item                                  | Size per Item | 
 |--------------------------------------------|--------------:|
 | 128 character message.                     | 128 Bytes     | Wrote 128 characters in a notepad and checked the size
@@ -19,12 +18,12 @@ author: Jane Doe
 | 4k UHD Uncompressed Video (15 minutes)     | 22247 MB      |
 | Human Genome (Uncompressed)                | 150 trillion GB|
 
+References:<br>
 https://4nsi.com/faq/how-do-i-calculate-the-file-size-for-a-digital-image
 https://www.circlehd.com/blog/how-to-calculate-video-file-size
 https://www.videoproc.com/edit-4k-video/video-size-calculator.htm
 
 #### b. Scaling
-
 |                                           | Size     | # HD  | 
 |-------------------------------------------|---------:|------:|
 | Daily Twitter Tweets (Uncompressed)       | 64 GB    |   1   |
@@ -39,13 +38,15 @@ https://www.videoproc.com/edit-4k-video/video-size-calculator.htm
 #### c. Reliability
 |                                    | # HD | # Failures |
 |------------------------------------|-----:|-----------:|
-| Twitter Tweets (Uncompressed)      | ??   |            |
-| Twitter Tweets (Snappy Compressed) | ??   |            |
-| Instagram Photos                   | ??   |            |
-| YouTube Videos                     | ??   |            |
+| Twitter Tweets (Uncompressed)      |  7   |    0.0623        |  .89 failure rate
+| Twitter Tweets (Snappy Compressed) |  5   |    0.0445        |
+| Instagram Photos                   | 25,684   |   228.58     |
+| YouTube Videos                     | 251,962  |    2242      |
+
+Reference:<br>
+https://www.backblaze.com/b2/hard-drive-test-data.html
 
 #### d. Latency
-
 |                           | One Way Latency      |
 |---------------------------|---------------------:|
 | Los Angeles to Amsterdam  | 147.432 ms           |
@@ -54,7 +55,7 @@ https://www.videoproc.com/edit-4k-video/video-size-calculator.htm
 | Earth to the Moon         | 1250 ms              |
 | Earth to Mars             | 3-21 minutes         | 
 
-References:
+References:<br>
 https://www.satsig.net/latency.htm
 https://www.satellitetoday.com/telecom/2009/09/01/minimizing-latency-in-satellite-networks/
 https://www.spaceacademy.net.au/spacelink/commdly.htm
